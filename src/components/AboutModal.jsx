@@ -30,7 +30,7 @@ function AboutModal({ isOpen, onClose }) {
         border: '1px solid #e5e7eb'
       }}>
         
-        {/* Modal Header */}
+        {/* Header */}
         <div style={{
           padding: '20px 24px',
           borderBottom: '1px solid #f3f4f6',
@@ -101,7 +101,7 @@ function AboutModal({ isOpen, onClose }) {
           ))}
         </div>
 
-        {/* Modal Scrollable Content */}
+        {/* Content */}
         <div style={{
           padding: '20px 24px',
           overflowY: 'auto',
@@ -211,7 +211,7 @@ function AboutModal({ isOpen, onClose }) {
             </div>
           )}
 
-          {/* TAB 4: FEATURES & DIFFERENCE */}
+          {/* TAB 4: FEATURES */}
           {activeTab === 'features' && (
             <div>
               <div style={{ display: 'grid', gap: '10px' }}>
@@ -230,7 +230,7 @@ function AboutModal({ isOpen, onClose }) {
 
         </div>
 
-        {/* Modal Footer */}
+        {/* Footer */}
         <div style={{
           padding: '12px 24px',
           borderTop: '1px solid #f3f4f6',
